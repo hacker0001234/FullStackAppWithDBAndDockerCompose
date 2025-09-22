@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: backend
+
+database:
+    host: mysql-db
+    port: 3306
+    username: root
+    password: root
+    name: test
+
+server:
+  port: 8081
+

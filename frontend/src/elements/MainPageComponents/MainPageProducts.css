@@ -1,0 +1,44 @@
+.mainPageProductContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: white;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.mainPageProductContainer:hover{
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    transition: ease-in 0.2s;
+}
+
+.mainPageProductContainer img {
+    width: 100%;
+    max-width: 350px;
+    height: 220px;
+    object-fit: cover;
+}
+
+.mainPageProductContainer p {
+    font-size: 30px;
+    font-weight: 600;
+    color: #333;
+    margin: 12px 0 0 0;
+    text-align: center;
+}
+.mainPageProductContainer button {
+    margin-top: 10px;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+
+    background-color: #FACC15;
+    color: #111111;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
