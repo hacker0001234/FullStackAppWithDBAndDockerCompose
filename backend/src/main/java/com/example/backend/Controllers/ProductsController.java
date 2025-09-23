@@ -19,7 +19,6 @@ public class ProductsController {
 
     @GetMapping("/get")
     public Flux<ProductDTO> getAllProducts() {
-
         return productsService.getAllProducts();
     }
 }

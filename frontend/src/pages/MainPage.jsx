@@ -6,7 +6,7 @@ export default function MainPage() {
     const baseUrl = import.meta.env.VITE_BASE_URL;
 
     const testApi = () =>{
-        axios.post(`${baseUrl}/test`,{}).then((r) => console.log(r.data));
+        axios.post(`${baseUrl}/test`,{}).then((r) => console.log(r.data) );
     }
     return (
         <DefaultComponent pageName={"main"}>
